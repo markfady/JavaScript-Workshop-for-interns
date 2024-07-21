@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:3000/books";
+const apiUrl = "http://localhost:3000/books"; 
 
 // Cache form elements
 const bookIdInput = document.getElementById("bookId");
