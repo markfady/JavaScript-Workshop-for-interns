@@ -24,7 +24,7 @@ function populateTable(data) {
 
         // Add book details to the row
         console.log(book)
-        console.log(Object.values(book))
+        console.log(Object.values(book)) 
 
         Object.values(book).forEach(value => { //access each property inside the specific object (Title,author,..)
             const cell = document.createElement("td");
