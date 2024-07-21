@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Book</title>
+</head>
+<body>
+    <h1>Edit Book</h1>
+    <form id="editForm">
+        <label for="id">ID:</label>
+        <input type="text" id="bookId" name="id" disabled>
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required><br><br>
+        <label for="author">Author:</label>
+        <input type="text" id="author" name="author" required><br><br>
+        <label for="genre">Genre:</label>
+        <input type="text" id="genre" name="genre" required><br><br>
+        <label for="price">Price:</label>
+        <input type="number" step="0.01" id="price" name="price" required><br>
+        <label for="inStock">In Stock:</label>
+        <input type="checkbox" id="inStock" name="inStock"><br><br>
+        <button type="submit">Save Changes</button>
+    </form>
+    <script src="edit.js"></script>
+</body>
+</html>
