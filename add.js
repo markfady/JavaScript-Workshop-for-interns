@@ -1,7 +1,7 @@
     document.getElementById("addBookForm").addEventListener("submit", async function(event) {
         event.preventDefault(); // Prevent the form from submitting the traditional way
 
-        // Gather form data
+        // Gather form data 
         const title = document.getElementById("title").value;
         const author = document.getElementById("author").value;
         const genre = document.getElementById("genre").value;
